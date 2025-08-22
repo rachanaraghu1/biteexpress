@@ -14,7 +14,7 @@ import orderRouter from "./routes/orderRoute.js";
 // ✅ Load env before anything else
 dotenv.config();
 
-console.log("MONGO_URL from env:", process.env.MONGO_URI);
+console.log("MONGO_URL from env:", process.env.MONGO_URL);
 
 const app = express();
 const port = process.env.PORT || 4000;
